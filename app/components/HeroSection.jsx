@@ -33,7 +33,13 @@ const HeroSection = () => {
                 </p>
                 <div>
                     <button className='mt-3 px-6 py-3 w-full sm:w-fit font-semibold rounded-full mr-4 bg-gradient-to-br from from-blue-100 via-violet-600 to-lime-100 
-                                       text-smokewhite animate-bounce lg:active:rotate-12'>Hire Me</button>
+                                       text-smokewhite animate-bounce lg:active:rotate-12'>
+                                        <a
+                                        href="mailto:dev.ahsaas@gmail.com"
+                                        >
+                                        Hire Me
+                                        </a>
+                    </button>
 
                     <button className="mt-6 mb-6 w-full sm:w-fit bg-gradient-to-r from-transparent to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out 
                                        hover:scale-110 hover:brightness-110 hover:animate-pulse ">
