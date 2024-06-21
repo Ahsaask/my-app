@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AchievementsSection from "./components/AchievementsSection";
 import AboutSection from "./components/AboutSection";
+import LoadAnimate from "./components/LoadAnimate";
 
 
 export default function Home() {
@@ -14,8 +15,8 @@ export default function Home() {
         <HeroSection/>
         <AchievementsSection/>
         <AboutSection/>
-
-      </div>
+        <LoadAnimate/>
+      </div> 
     </main>
   );
 }
