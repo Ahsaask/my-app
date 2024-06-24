@@ -1,10 +1,19 @@
 "use client";
 
-import React from 'react';
-import Image from 'next/image';
+import React, { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js";
+        script.async = true;
+        document.body.appendChild(script);
+        return () => {
+            document.body.removeChild(script);
+        }
+    }, []);
+
   return (
     <section>
         <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -50,13 +59,14 @@ const HeroSection = () => {
             </div>
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                 <div className="rounded-full bg-transparent w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative">
-                    <Image
-                        src="/Images/bg-hero.png"
-                        alt="hero image"
-                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        width={300}
-                        height={300}
-                    />
+                        <lottie-player
+                            src="https://lottie.host/182a56c3-b430-4e2b-9424-7136d9c58e61/Iymb96Gwje.json"
+                            background="transparent"
+                            speed="1"
+                            style={{ width: '100%', height: '100%' }}
+                            loop
+                            autoplay
+                        ></lottie-player>
                 </div>
             </div>
             

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
+    "@lottiefiles/react-lottie-player": "^3.5.4",
     "@remixicon/react": "^4.2.0",
     "framer-motion": "^11.2.11",
     "next": "14.2.4",
