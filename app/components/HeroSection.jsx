@@ -49,8 +49,8 @@ const HeroSection = () => {
                     </a>
 
                     <a href="/pdf/CV_Ahsaas.pdf" download="Resume_Ahsaas.pdf">
-                        <button className="mt-6 mb-6 w-full sm:w-fit bg-gradient-to-r from-transparent via-transparent to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out
-                                           hover:scale-110 hover:brightness-110 hover:animate-pulse ">
+                        <button className="mt-6 mb-6 w-full sm:ml-4 sm:w-fit bg-gradient-to-r from-transparent via-transparent to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out
+                                            hover:brightness-110 hover:animate-pulse ">
                                             Download CV
                         </button>
                     </a>
