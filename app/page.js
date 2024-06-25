@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import AchievementsSection from "./components/AchievementsSection";
 import AboutSection from "./components/AboutSection";
 import LoadAnimate from "./components/LoadAnimate";
+import Icon from "./components/Icon";
 
 
 export default function Home() {
@@ -17,6 +18,12 @@ export default function Home() {
         <AboutSection/>
         <LoadAnimate/>
       </div> 
+
+      <div className="flex mt-10 justify-center px-14 md:px-8 lg:px-16">
+        <div className="max-w-screen-md w-full">
+          <Icon className="w-full h-auto" />
+        </div>
+    </div>
     </main>
   );
 }
