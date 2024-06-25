@@ -42,7 +42,7 @@ const HeroSection = () => {
                 </p>
                 <div>
                     <a href="mailto:dev.ahsaas@gmail.com">
-                        <button className='mt-3 px-6 py-3 w-32 sm:w-fit font-semibold rounded-full mr-4 bg-gradient-to-br from from-blue-100 via-violet-600 to-lime-100
+                        <button className='mt-3 px-6 py-3 w-fit sm:w-fit font-semibold rounded-full mr-4 bg-gradient-to-br from from-blue-100 via-violet-600 to-lime-100
                                            text-smokewhite animate-bounce lg:active:rotate-12'>
                                            👋 Hire Me
                         </button>
