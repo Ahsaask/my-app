@@ -5,6 +5,7 @@ import AchievementsSection from "./components/AchievementsSection";
 import AboutSection from "./components/AboutSection";
 import LoadAnimate from "./components/LoadAnimate";
 import Icon from "./components/Icon";
+import IconMobile from "./components/IconMobile";
 
 
 export default function Home() {
@@ -20,10 +21,16 @@ export default function Home() {
       </div> 
 
       <div className="flex mt-10 justify-center px-14 md:px-8 lg:px-16">
-        <div className="max-w-screen-md w-full">
-          <Icon className="w-full h-auto" />
+        <div className="max-w-screen-md w-full ">
+        <div className="hidden md:block">
+            <Icon className="w-full h-auto" />
+          </div>
+          {/* IconMobile for mobile screens */}
+          <div className="block md:hidden">
+            <IconMobile className="w-full h-auto" />
+          </div>
         </div>
-    </div>
+      </div>
     </main>
   );
 }
