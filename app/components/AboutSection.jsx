@@ -23,7 +23,6 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Books</li>
         <li>University of Calgary, Alberta</li>
       </ul>
     ),
